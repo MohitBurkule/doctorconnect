@@ -1,0 +1,14 @@
+        <html>
+            <body>
+                {{ errors }}
+				{% for msg in get_flashed_messages() %}
+					{{msg}}
+				{%endfor%}	
+                <p>Enter your login details:</p>
+                <form method="post" action>
+                    <p>email: <input name="email" /></p>
+                    <p>Password: <input name="password" /></p>
+                    <p><input type="submit" value="Submit" /></p>
+                </form>
+            </body>
+        </html>
