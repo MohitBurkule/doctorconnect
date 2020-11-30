@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-30T13:17:47.442Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="HVXokqRCTOSco5WReRSB" version="13.10.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-11-30T16:51:20.755Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="P2iLbpfeCYJngZCYfhs7" version="13.10.4" type="github" pages="5">
   <diagram id="XmfhpZSHDbD-L9CLVwJt" name="template">
     <mxGraphModel dx="1090" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,7 +50,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="byVPXGxTpVpA08MQUBKN" name="doctor">
-    <mxGraphModel dx="623" dy="369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="752" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="rjG-5tmP0zsZ7msJsn3C-0" />
         <mxCell id="rjG-5tmP0zsZ7msJsn3C-1" parent="rjG-5tmP0zsZ7msJsn3C-0" />
@@ -137,7 +137,7 @@
         <mxCell id="ntNvnEeWr8WbVLHKXKc1-12" value="Logout" style="ellipse;whiteSpace=wrap;html=1;" parent="rjG-5tmP0zsZ7msJsn3C-1" vertex="1">
           <mxGeometry x="414" y="770" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="E7NjIkBllBm3Bauk7JYf-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="rjG-5tmP0zsZ7msJsn3C-1" source="ntNvnEeWr8WbVLHKXKc1-13" target="E7NjIkBllBm3Bauk7JYf-0" edge="1">
+        <mxCell id="E7NjIkBllBm3Bauk7JYf-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=classicThin;startFill=1;endArrow=none;endFill=0;" parent="rjG-5tmP0zsZ7msJsn3C-1" source="ntNvnEeWr8WbVLHKXKc1-13" target="E7NjIkBllBm3Bauk7JYf-0" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ntNvnEeWr8WbVLHKXKc1-13" value="View patients list" style="ellipse;whiteSpace=wrap;html=1;" parent="rjG-5tmP0zsZ7msJsn3C-1" vertex="1">
@@ -196,6 +196,9 @@
         </mxCell>
         <mxCell id="X2fd3x6tlkUmGp1pCvUv-4" value="&amp;lt;&amp;lt;Extends&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="rjG-5tmP0zsZ7msJsn3C-1" vertex="1">
           <mxGeometry x="850" y="680" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mT10841WicTH9NbtOQGB-0" value="&amp;lt;&amp;lt;Extends&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="rjG-5tmP0zsZ7msJsn3C-1">
+          <mxGeometry x="550" y="590" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
