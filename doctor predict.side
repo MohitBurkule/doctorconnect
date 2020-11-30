@@ -1,0 +1,1821 @@
+{
+  "id": "e950c7dc-4ceb-4963-b4ab-0d17f4deb9da",
+  "version": "2.0",
+  "name": "doctor predict",
+  "url": "http://doctorconnect.pythonanywhere.com/login",
+  "tests": [{
+    "id": "adab057a-a2ac-4d0f-a438-e4768c0cbbbf",
+    "name": "dpf more ages",
+    "commands": [{
+      "id": "d2b7bf89-25b0-449d-8c51-bb88e8d2aa48",
+      "comment": "",
+      "command": "open",
+      "target": "https://docpredict.herokuapp.com/dpf/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1421846-a912-41d2-8ad3-8c041585b72a",
+      "comment": "",
+      "command": "click",
+      "target": "name=ddage",
+      "targets": [
+        ["name=ddage", "name"],
+        ["css=p:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='ddage']", "xpath:attributes"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df974d36-431e-43a2-a2c1-940d7a05104c",
+      "comment": "",
+      "command": "type",
+      "target": "name=ddage",
+      "targets": [
+        ["name=ddage", "name"],
+        ["css=p:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='ddage']", "xpath:attributes"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": "55,65,23"
+    }, {
+      "id": "a56e27bd-1b34-4ac2-b652-a319eb6c2187",
+      "comment": "",
+      "command": "click",
+      "target": "name=ddrel",
+      "targets": [
+        ["name=ddrel", "name"],
+        ["css=p:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='ddrel']", "xpath:attributes"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98a6809d-ceb1-4f1e-bc1e-ff3adbf326bd",
+      "comment": "",
+      "command": "type",
+      "target": "name=ddrel",
+      "targets": [
+        ["name=ddrel", "name"],
+        ["css=p:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='ddrel']", "xpath:attributes"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "p,g"
+    }, {
+      "id": "74213673-722b-4d54-8b32-45fb477929ba",
+      "comment": "",
+      "command": "click",
+      "target": "name=nddage",
+      "targets": [
+        ["name=nddage", "name"],
+        ["css=p:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nddage']", "xpath:attributes"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d80e7619-9c62-4c44-9efa-3af520f8fee3",
+      "comment": "",
+      "command": "type",
+      "target": "name=nddage",
+      "targets": [
+        ["name=nddage", "name"],
+        ["css=p:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nddage']", "xpath:attributes"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": "49,23"
+    }, {
+      "id": "3e2210a9-f34a-403a-bce2-e10d40d26beb",
+      "comment": "",
+      "command": "click",
+      "target": "name=nddrel",
+      "targets": [
+        ["name=nddrel", "name"],
+        ["css=p:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nddrel']", "xpath:attributes"],
+        ["xpath=//p[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ee3b24e-a86a-40af-8b5b-c262ef62e0ce",
+      "comment": "",
+      "command": "type",
+      "target": "name=nddrel",
+      "targets": [
+        ["name=nddrel", "name"],
+        ["css=p:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nddrel']", "xpath:attributes"],
+        ["xpath=//p[4]/input", "xpath:position"]
+      ],
+      "value": "p,p"
+    }, {
+      "id": "36c0e787-b432-4dc9-be75-b2ac3e4a5c7c",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(6) > .form-control",
+      "targets": [
+        ["css=p:nth-child(6) > .form-control", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//p[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7728818-cd83-4e6f-86a7-ef945ed8b893",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=demo",
+      "targets": [],
+      "value": "Please recheck your data "
+    }]
+  }, {
+    "id": "f54ace0b-e293-4302-803e-116cdf831b54",
+    "name": "dpf exceeding ages",
+    "commands": [{
+      "id": "19f9178f-bdf9-4f58-b103-ecec28f3ac5f",
+      "comment": "",
+      "command": "open",
+      "target": "https://docpredict.herokuapp.com/dpf/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26a652bc-e894-49e4-8d63-3e46d18b640d",
+      "comment": "",
+      "command": "click",
+      "target": "name=ddage",
+      "targets": [
+        ["name=ddage", "name"],
+        ["css=p:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='ddage']", "xpath:attributes"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0e3d68d-6abb-4322-872a-168e19c8f7c5",
+      "comment": "",
+      "command": "type",
+      "target": "name=ddage",
+      "targets": [
+        ["name=ddage", "name"],
+        ["css=p:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='ddage']", "xpath:attributes"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": "55,121"
+    }, {
+      "id": "40f774de-3e58-4e12-8b45-adfc8f9c53b8",
+      "comment": "",
+      "command": "click",
+      "target": "name=ddrel",
+      "targets": [
+        ["name=ddrel", "name"],
+        ["css=p:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='ddrel']", "xpath:attributes"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d54500c-2c71-4e8f-9a4f-e5208c56bbd9",
+      "comment": "",
+      "command": "type",
+      "target": "name=ddrel",
+      "targets": [
+        ["name=ddrel", "name"],
+        ["css=p:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='ddrel']", "xpath:attributes"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "p,g"
+    }, {
+      "id": "e99827c9-ac00-44e9-92f6-eeb8fc742cba",
+      "comment": "",
+      "command": "click",
+      "target": "name=nddage",
+      "targets": [
+        ["name=nddage", "name"],
+        ["css=p:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nddage']", "xpath:attributes"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5834f506-d8f2-4721-860f-3f092e082cdf",
+      "comment": "",
+      "command": "type",
+      "target": "name=nddage",
+      "targets": [
+        ["name=nddage", "name"],
+        ["css=p:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nddage']", "xpath:attributes"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": "49,23"
+    }, {
+      "id": "5b54897d-622b-4df4-bcaf-fb677054b363",
+      "comment": "",
+      "command": "click",
+      "target": "name=nddrel",
+      "targets": [
+        ["name=nddrel", "name"],
+        ["css=p:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nddrel']", "xpath:attributes"],
+        ["xpath=//p[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0fe1cf4-a9e0-4d33-a129-217aa1d60713",
+      "comment": "",
+      "command": "type",
+      "target": "name=nddrel",
+      "targets": [
+        ["name=nddrel", "name"],
+        ["css=p:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nddrel']", "xpath:attributes"],
+        ["xpath=//p[4]/input", "xpath:position"]
+      ],
+      "value": "p,p"
+    }, {
+      "id": "1faa1a0a-bbd3-42e9-aed3-6cf87ba55177",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(6) > .form-control",
+      "targets": [
+        ["css=p:nth-child(6) > .form-control", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//p[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f69f34cf-9748-426c-b219-f74f60962a73",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=demo",
+      "targets": [],
+      "value": "Please recheck your data "
+    }]
+  }, {
+    "id": "6abcf069-dce8-4d4d-83be-39eae4e5ee4c",
+    "name": "dpf valid",
+    "commands": [{
+      "id": "69dfb465-1ec9-476f-80dd-5f357be2c00c",
+      "comment": "",
+      "command": "open",
+      "target": "https://docpredict.herokuapp.com/dpf/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79f05474-4bce-4899-82da-6bffeb1ad445",
+      "comment": "",
+      "command": "click",
+      "target": "name=ddage",
+      "targets": [
+        ["name=ddage", "name"],
+        ["css=p:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='ddage']", "xpath:attributes"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5e68725-06a3-418e-b4df-00b3730dc3eb",
+      "comment": "",
+      "command": "type",
+      "target": "name=ddage",
+      "targets": [
+        ["name=ddage", "name"],
+        ["css=p:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='ddage']", "xpath:attributes"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": "55,65"
+    }, {
+      "id": "31d2a57f-2187-4283-bcfc-c96d7b311f42",
+      "comment": "",
+      "command": "click",
+      "target": "name=ddrel",
+      "targets": [
+        ["name=ddrel", "name"],
+        ["css=p:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='ddrel']", "xpath:attributes"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcdb47b4-4fb4-4335-a6a2-3487e14eae95",
+      "comment": "",
+      "command": "type",
+      "target": "name=ddrel",
+      "targets": [
+        ["name=ddrel", "name"],
+        ["css=p:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='ddrel']", "xpath:attributes"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "p,g"
+    }, {
+      "id": "1551e306-ca99-48e7-8413-a74fa3560e1a",
+      "comment": "",
+      "command": "click",
+      "target": "name=nddage",
+      "targets": [
+        ["name=nddage", "name"],
+        ["css=p:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nddage']", "xpath:attributes"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58402a4e-1baa-4fe0-8e35-7f8c56dd21a1",
+      "comment": "",
+      "command": "type",
+      "target": "name=nddage",
+      "targets": [
+        ["name=nddage", "name"],
+        ["css=p:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nddage']", "xpath:attributes"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": "49,23"
+    }, {
+      "id": "d15e0cba-9aa3-4806-9c72-540779f82e90",
+      "comment": "",
+      "command": "click",
+      "target": "name=nddrel",
+      "targets": [
+        ["name=nddrel", "name"],
+        ["css=p:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nddrel']", "xpath:attributes"],
+        ["xpath=//p[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84ca7feb-5f35-4307-b083-d3fca5d036e6",
+      "comment": "",
+      "command": "type",
+      "target": "name=nddrel",
+      "targets": [
+        ["name=nddrel", "name"],
+        ["css=p:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nddrel']", "xpath:attributes"],
+        ["xpath=//p[4]/input", "xpath:position"]
+      ],
+      "value": "p,p"
+    }, {
+      "id": "3dc61d1b-16f1-4fd0-9816-af2a67f81d71",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(6) > .form-control",
+      "targets": [
+        ["css=p:nth-child(6) > .form-control", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//p[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d68775c-c406-48b7-8eb5-db60b0ffb966",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Proceed to calculation",
+      "targets": [
+        ["linkText=Proceed to calculation", "linkText"],
+        ["css=a", "css:finder"],
+        ["xpath=//a[contains(text(),'Proceed to calculation')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://doctorconnect.pythonanywhere.com/prediction?dpf=0.486')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Proceed to calculation')]", "xpath:innerText"]
+      ],
+      "value": "Please recheck your data "
+    }, {
+      "id": "41635901-1fc3-4b00-8153-86807d37b91a",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4f86077d-0523-4905-b641-985453f1687c",
+    "name": "dpf more relations",
+    "commands": [{
+      "id": "577447a9-48ec-4ccf-9cbe-3a681f63b541",
+      "comment": "",
+      "command": "open",
+      "target": "https://docpredict.herokuapp.com/dpf/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "37a29bfe-b952-4496-a8b9-6718ab70089c",
+      "comment": "",
+      "command": "click",
+      "target": "name=ddage",
+      "targets": [
+        ["name=ddage", "name"],
+        ["css=p:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='ddage']", "xpath:attributes"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd60fc98-f7d1-4a8b-951d-ef4b99cc6701",
+      "comment": "",
+      "command": "type",
+      "target": "name=ddage",
+      "targets": [
+        ["name=ddage", "name"],
+        ["css=p:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='ddage']", "xpath:attributes"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": "55,65"
+    }, {
+      "id": "2654cd26-f2a7-4d09-92af-fd39829b29e8",
+      "comment": "",
+      "command": "click",
+      "target": "name=ddrel",
+      "targets": [
+        ["name=ddrel", "name"],
+        ["css=p:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='ddrel']", "xpath:attributes"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8697e2f-1da3-4129-8673-03113f35aefb",
+      "comment": "",
+      "command": "type",
+      "target": "name=ddrel",
+      "targets": [
+        ["name=ddrel", "name"],
+        ["css=p:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='ddrel']", "xpath:attributes"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "p,g,g"
+    }, {
+      "id": "93fd1ddb-172f-4acd-95a4-f8c31c44c61c",
+      "comment": "",
+      "command": "click",
+      "target": "name=nddage",
+      "targets": [
+        ["name=nddage", "name"],
+        ["css=p:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nddage']", "xpath:attributes"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe52c8f8-0976-4b77-9293-a3e8d77099a3",
+      "comment": "",
+      "command": "type",
+      "target": "name=nddage",
+      "targets": [
+        ["name=nddage", "name"],
+        ["css=p:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nddage']", "xpath:attributes"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": "49,23"
+    }, {
+      "id": "70ee0860-536f-4e88-9354-ddff7be86c81",
+      "comment": "",
+      "command": "click",
+      "target": "name=nddrel",
+      "targets": [
+        ["name=nddrel", "name"],
+        ["css=p:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nddrel']", "xpath:attributes"],
+        ["xpath=//p[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7405105d-ca0e-4b73-b1c6-7f4f66b7991d",
+      "comment": "",
+      "command": "type",
+      "target": "name=nddrel",
+      "targets": [
+        ["name=nddrel", "name"],
+        ["css=p:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nddrel']", "xpath:attributes"],
+        ["xpath=//p[4]/input", "xpath:position"]
+      ],
+      "value": "p,p"
+    }, {
+      "id": "3e227c1a-b148-418e-a504-dad50910530b",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(6) > .form-control",
+      "targets": [
+        ["css=p:nth-child(6) > .form-control", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//p[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3a78c3e-0c83-428f-8e4b-e0c5a83fe51e",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=demo",
+      "targets": [],
+      "value": "Please recheck your data "
+    }]
+  }, {
+    "id": "073c662f-c40a-449d-a2eb-42bd4e8db850",
+    "name": "dpf invalid relations",
+    "commands": [{
+      "id": "59fdc716-f34f-434e-bf2e-c84e6cfd5241",
+      "comment": "",
+      "command": "open",
+      "target": "https://docpredict.herokuapp.com/dpf/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8abb3f8-a401-421a-9c09-51eccde094d2",
+      "comment": "",
+      "command": "click",
+      "target": "name=ddage",
+      "targets": [
+        ["name=ddage", "name"],
+        ["css=p:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='ddage']", "xpath:attributes"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48fde6f9-734c-4216-93ca-0637e56882cb",
+      "comment": "",
+      "command": "type",
+      "target": "name=ddage",
+      "targets": [
+        ["name=ddage", "name"],
+        ["css=p:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='ddage']", "xpath:attributes"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": "55,65"
+    }, {
+      "id": "e58a6da3-8e74-4093-8066-148b96b64208",
+      "comment": "",
+      "command": "click",
+      "target": "name=ddrel",
+      "targets": [
+        ["name=ddrel", "name"],
+        ["css=p:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='ddrel']", "xpath:attributes"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3af52538-34f7-4d5f-a92d-19766646807a",
+      "comment": "",
+      "command": "type",
+      "target": "name=ddrel",
+      "targets": [
+        ["name=ddrel", "name"],
+        ["css=p:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='ddrel']", "xpath:attributes"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "e,g"
+    }, {
+      "id": "cccba183-0c61-44f6-aef1-62de8731b02f",
+      "comment": "",
+      "command": "click",
+      "target": "name=nddage",
+      "targets": [
+        ["name=nddage", "name"],
+        ["css=p:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nddage']", "xpath:attributes"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c71c6f6e-5dd8-42fd-8ae2-a774d23163b4",
+      "comment": "",
+      "command": "type",
+      "target": "name=nddage",
+      "targets": [
+        ["name=nddage", "name"],
+        ["css=p:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nddage']", "xpath:attributes"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": "49,23"
+    }, {
+      "id": "421c3e53-cd27-4d95-8203-15a20d9c7ef4",
+      "comment": "",
+      "command": "click",
+      "target": "name=nddrel",
+      "targets": [
+        ["name=nddrel", "name"],
+        ["css=p:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nddrel']", "xpath:attributes"],
+        ["xpath=//p[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3d20e1c-4528-4165-b3d0-2f09ed7b6864",
+      "comment": "",
+      "command": "type",
+      "target": "name=nddrel",
+      "targets": [
+        ["name=nddrel", "name"],
+        ["css=p:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nddrel']", "xpath:attributes"],
+        ["xpath=//p[4]/input", "xpath:position"]
+      ],
+      "value": "p,p"
+    }, {
+      "id": "22cfb4bd-9bbe-415b-b702-7ebfc9bbbccb",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(6) > .form-control",
+      "targets": [
+        ["css=p:nth-child(6) > .form-control", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//p[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8be8c35-610d-42bf-8ea4-00a7135f0ac8",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=demo",
+      "targets": [],
+      "value": "Please recheck your data "
+    }]
+  }, {
+    "id": "a0e816e6-891b-42da-9158-34300194d266",
+    "name": "valid2",
+    "commands": [{
+      "id": "704aad6b-1eb2-4db1-a3bb-0db1fbfdcc50",
+      "comment": "",
+      "command": "open",
+      "target": "https://docpredict.herokuapp.com/dpf/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a3a6d3f-5e34-4f02-9004-e2d35b685128",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1580x918",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7c2f9cb9-fd35-4042-95f7-189448bca051",
+      "comment": "",
+      "command": "click",
+      "target": "name=ddage",
+      "targets": [
+        ["name=ddage", "name"],
+        ["css=p:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='ddage']", "xpath:attributes"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96337bdc-5186-4b0f-9f84-e988e08c8593",
+      "comment": "",
+      "command": "type",
+      "target": "name=ddage",
+      "targets": [
+        ["name=ddage", "name"],
+        ["css=p:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='ddage']", "xpath:attributes"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": "23"
+    }, {
+      "id": "b14ec302-3b3a-499c-9696-8b494342828b",
+      "comment": "",
+      "command": "click",
+      "target": "name=ddrel",
+      "targets": [
+        ["name=ddrel", "name"],
+        ["css=p:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='ddrel']", "xpath:attributes"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6b72ea3-b8bf-4c8f-904b-7dfa35e8638a",
+      "comment": "",
+      "command": "type",
+      "target": "name=ddrel",
+      "targets": [
+        ["name=ddrel", "name"],
+        ["css=p:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='ddrel']", "xpath:attributes"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "p"
+    }, {
+      "id": "7cafa962-20bc-408a-a226-9f27995eb55e",
+      "comment": "",
+      "command": "click",
+      "target": "name=nddrel",
+      "targets": [
+        ["name=nddrel", "name"],
+        ["css=p:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nddrel']", "xpath:attributes"],
+        ["xpath=//p[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4680688c-9d18-4400-8f2c-e19ef8d0bcad",
+      "comment": "",
+      "command": "click",
+      "target": "name=nddage",
+      "targets": [
+        ["name=nddage", "name"],
+        ["css=p:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nddage']", "xpath:attributes"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "715eb9ed-cd51-4f57-9599-fac7d7908364",
+      "comment": "",
+      "command": "type",
+      "target": "name=nddage",
+      "targets": [
+        ["name=nddage", "name"],
+        ["css=p:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nddage']", "xpath:attributes"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": "12"
+    }, {
+      "id": "deaa48c0-0879-4fe2-9467-7f3bd0528f7e",
+      "comment": "",
+      "command": "click",
+      "target": "name=nddrel",
+      "targets": [
+        ["name=nddrel", "name"],
+        ["css=p:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nddrel']", "xpath:attributes"],
+        ["xpath=//p[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09ff0da6-d83f-4ee4-b6e0-6caf63ba1d15",
+      "comment": "",
+      "command": "type",
+      "target": "name=nddrel",
+      "targets": [
+        ["name=nddrel", "name"],
+        ["css=p:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nddrel']", "xpath:attributes"],
+        ["xpath=//p[4]/input", "xpath:position"]
+      ],
+      "value": "p"
+    }, {
+      "id": "cccc669d-863a-4ea4-bc3c-e89fd078ca94",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(6) > .form-control",
+      "targets": [
+        ["css=p:nth-child(6) > .form-control", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//p[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25ed950b-c9ef-4a81-a0d4-75b77f3985ea",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Proceed to calculation",
+      "targets": [
+        ["linkText=Proceed to calculation", "linkText"],
+        ["css=a", "css:finder"],
+        ["xpath=//a[contains(text(),'Proceed to calculation')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://doctorconnect.pythonanywhere.com/prediction?dpf=0.565')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Proceed to calculation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2ba7de26-0a1b-407e-9f94-3c196000cb45",
+    "name": "invalid relations (1)",
+    "commands": [{
+      "id": "897bcb9f-32ed-4375-812a-c735b96dc37b",
+      "comment": "",
+      "command": "open",
+      "target": "https://docpredict.herokuapp.com/dpf/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41c8bc50-ad81-4dd5-a8da-6b66e872830b",
+      "comment": "",
+      "command": "click",
+      "target": "name=ddage",
+      "targets": [
+        ["name=ddage", "name"],
+        ["css=p:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='ddage']", "xpath:attributes"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a05fe228-3d5f-4d78-83c0-489ae97559cb",
+      "comment": "",
+      "command": "type",
+      "target": "name=ddage",
+      "targets": [
+        ["name=ddage", "name"],
+        ["css=p:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='ddage']", "xpath:attributes"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": "55,65"
+    }, {
+      "id": "d5f1b57e-cbb9-4b53-a053-98bdd53197b2",
+      "comment": "",
+      "command": "click",
+      "target": "name=ddrel",
+      "targets": [
+        ["name=ddrel", "name"],
+        ["css=p:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='ddrel']", "xpath:attributes"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2603e3b-2c78-4eda-b083-74175e2e40bb",
+      "comment": "",
+      "command": "type",
+      "target": "name=ddrel",
+      "targets": [
+        ["name=ddrel", "name"],
+        ["css=p:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='ddrel']", "xpath:attributes"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "f,g"
+    }, {
+      "id": "45d1ba29-f661-4960-9871-59992cfb4174",
+      "comment": "",
+      "command": "click",
+      "target": "name=nddage",
+      "targets": [
+        ["name=nddage", "name"],
+        ["css=p:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nddage']", "xpath:attributes"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "365a81b0-d340-46e2-a852-51276c9f9548",
+      "comment": "",
+      "command": "type",
+      "target": "name=nddage",
+      "targets": [
+        ["name=nddage", "name"],
+        ["css=p:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nddage']", "xpath:attributes"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": "49,23"
+    }, {
+      "id": "0d2d6660-45fc-4f08-a069-49c4c6c6e67f",
+      "comment": "",
+      "command": "click",
+      "target": "name=nddrel",
+      "targets": [
+        ["name=nddrel", "name"],
+        ["css=p:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nddrel']", "xpath:attributes"],
+        ["xpath=//p[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a15136e-0136-431e-b010-8dd3e30bf8fe",
+      "comment": "",
+      "command": "type",
+      "target": "name=nddrel",
+      "targets": [
+        ["name=nddrel", "name"],
+        ["css=p:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nddrel']", "xpath:attributes"],
+        ["xpath=//p[4]/input", "xpath:position"]
+      ],
+      "value": "p,p"
+    }, {
+      "id": "28915385-cf2d-44ee-aad8-14fc25f3324c",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(6) > .form-control",
+      "targets": [
+        ["css=p:nth-child(6) > .form-control", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//p[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f858d99-8bbc-4cff-837b-0f2e89114ffa",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=demo",
+      "targets": [],
+      "value": "Please recheck your data "
+    }]
+  }, {
+    "id": "1fdff3ad-503c-481b-a700-52e9037e4003",
+    "name": "diabetespred valid",
+    "commands": [{
+      "id": "3064a304-bf61-4ef8-925f-b249297a7840",
+      "comment": "",
+      "command": "open",
+      "target": "http://doctorconnect.pythonanywhere.com/prediction",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f94673a8-082e-499d-9f4b-f97a214e63e8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1089x894",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0103d8a2-4c76-432a-a78c-4761d57b70f7",
+      "comment": "",
+      "command": "click",
+      "target": "id=dpf",
+      "targets": [
+        ["id=dpf", "id"],
+        ["name=dpf", "name"],
+        ["css=#dpf", "css:finder"],
+        ["xpath=//input[@id='dpf']", "xpath:attributes"],
+        ["xpath=//form[@id='myform']/p/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66d6be60-2345-4015-9c0c-23452b6d86eb",
+      "comment": "",
+      "command": "type",
+      "target": "id=dpf",
+      "targets": [
+        ["id=dpf", "id"],
+        ["name=dpf", "name"],
+        ["css=#dpf", "css:finder"],
+        ["xpath=//input[@id='dpf']", "xpath:attributes"],
+        ["xpath=//form[@id='myform']/p/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0.45"
+    }, {
+      "id": "9c7a218b-241e-4ff2-867c-10942f8aa670",
+      "comment": "",
+      "command": "click",
+      "target": "name=preg",
+      "targets": [
+        ["name=preg", "name"],
+        ["css=p:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='preg']", "xpath:attributes"],
+        ["xpath=//form[@id='myform']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94c28dba-0da7-4064-ad4b-b20eec8479ff",
+      "comment": "",
+      "command": "type",
+      "target": "name=preg",
+      "targets": [
+        ["name=preg", "name"],
+        ["css=p:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='preg']", "xpath:attributes"],
+        ["xpath=//form[@id='myform']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "c5b69574-7852-4a6a-8f60-d4229e3ab288",
+      "comment": "",
+      "command": "click",
+      "target": "name=glu",
+      "targets": [
+        ["name=glu", "name"],
+        ["css=p:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='glu']", "xpath:attributes"],
+        ["xpath=//form[@id='myform']/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3b02663-8671-413e-8243-95cdcf1f84d2",
+      "comment": "",
+      "command": "type",
+      "target": "name=glu",
+      "targets": [
+        ["name=glu", "name"],
+        ["css=p:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='glu']", "xpath:attributes"],
+        ["xpath=//form[@id='myform']/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": "80"
+    }, {
+      "id": "a0b01706-b38d-477e-803a-5bae0f6f1b25",
+      "comment": "",
+      "command": "click",
+      "target": "name=bp",
+      "targets": [
+        ["name=bp", "name"],
+        ["css=p:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='bp']", "xpath:attributes"],
+        ["xpath=//form[@id='myform']/p[4]/input", "xpath:idRelative"],
+        ["xpath=//p[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ce4077d-dfc8-412a-8fbb-430a622b9577",
+      "comment": "",
+      "command": "type",
+      "target": "name=bp",
+      "targets": [
+        ["name=bp", "name"],
+        ["css=p:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='bp']", "xpath:attributes"],
+        ["xpath=//form[@id='myform']/p[4]/input", "xpath:idRelative"],
+        ["xpath=//p[4]/input", "xpath:position"]
+      ],
+      "value": "90"
+    }, {
+      "id": "1209b53f-ff9f-4cb5-9029-6e1f85568816",
+      "comment": "",
+      "command": "click",
+      "target": "name=st",
+      "targets": [
+        ["name=st", "name"],
+        ["css=p:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='st']", "xpath:attributes"],
+        ["xpath=//form[@id='myform']/p[5]/input", "xpath:idRelative"],
+        ["xpath=//p[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "180b8377-2f65-4a99-8135-5c5f68c9d32c",
+      "comment": "",
+      "command": "type",
+      "target": "name=st",
+      "targets": [
+        ["name=st", "name"],
+        ["css=p:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='st']", "xpath:attributes"],
+        ["xpath=//form[@id='myform']/p[5]/input", "xpath:idRelative"],
+        ["xpath=//p[5]/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "b737e79d-c311-4133-88f0-10a5ad901298",
+      "comment": "",
+      "command": "type",
+      "target": "name=ins",
+      "targets": [
+        ["name=ins", "name"],
+        ["css=p:nth-child(6) > .form-control", "css:finder"],
+        ["xpath=//input[@name='ins']", "xpath:attributes"],
+        ["xpath=//form[@id='myform']/p[6]/input", "xpath:idRelative"],
+        ["xpath=//p[6]/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "1a692a5c-230f-4f47-9510-d2248c8eadc1",
+      "comment": "",
+      "command": "type",
+      "target": "name=bmi",
+      "targets": [
+        ["name=bmi", "name"],
+        ["css=p:nth-child(7) > .form-control", "css:finder"],
+        ["xpath=//input[@name='bmi']", "xpath:attributes"],
+        ["xpath=//form[@id='myform']/p[7]/input", "xpath:idRelative"],
+        ["xpath=//p[7]/input", "xpath:position"]
+      ],
+      "value": "18"
+    }, {
+      "id": "319877ab-01db-469f-af4b-7aa8eacbb57b",
+      "comment": "",
+      "command": "click",
+      "target": "name=age",
+      "targets": [
+        ["name=age", "name"],
+        ["css=p:nth-child(8) > .form-control", "css:finder"],
+        ["xpath=//input[@name='age']", "xpath:attributes"],
+        ["xpath=//form[@id='myform']/p[8]/input", "xpath:idRelative"],
+        ["xpath=//p[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f06ac40e-43d8-4a0c-b300-1bd07b409533",
+      "comment": "",
+      "command": "type",
+      "target": "name=age",
+      "targets": [
+        ["name=age", "name"],
+        ["css=p:nth-child(8) > .form-control", "css:finder"],
+        ["xpath=//input[@name='age']", "xpath:attributes"],
+        ["xpath=//form[@id='myform']/p[8]/input", "xpath:idRelative"],
+        ["xpath=//p[8]/input", "xpath:position"]
+      ],
+      "value": "21"
+    }, {
+      "id": "722b7794-60f2-4571-8b1b-52283d42bd63",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(9) > .form-control",
+      "targets": [
+        ["css=p:nth-child(9) > .form-control", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//form[@id='myform']/p[9]/input", "xpath:idRelative"],
+        ["xpath=//p[9]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95873c8b-2ec9-42bf-bf63-f3e3b716437e",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "\"Not Diabetic - Probability 98.69\"",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6631059f-c815-4593-a51f-d54a014f101d",
+    "name": "diabetespred invalid",
+    "commands": [{
+      "id": "68514cc5-33f3-4732-b94a-fda884eea8cf",
+      "comment": "",
+      "command": "open",
+      "target": "http://doctorconnect.pythonanywhere.com/prediction",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab40a328-77b1-440c-8d9f-815ca2239bfa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1089x894",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a4a8854-2438-4681-a830-2c0ead9000e1",
+      "comment": "",
+      "command": "click",
+      "target": "id=dpf",
+      "targets": [
+        ["id=dpf", "id"],
+        ["name=dpf", "name"],
+        ["css=#dpf", "css:finder"],
+        ["xpath=//input[@id='dpf']", "xpath:attributes"],
+        ["xpath=//form[@id='myform']/p/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38e83c4c-8070-491c-8c90-fd8dde7db70f",
+      "comment": "",
+      "command": "type",
+      "target": "id=dpf",
+      "targets": [
+        ["id=dpf", "id"],
+        ["name=dpf", "name"],
+        ["css=#dpf", "css:finder"],
+        ["xpath=//input[@id='dpf']", "xpath:attributes"],
+        ["xpath=//form[@id='myform']/p/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0.45"
+    }, {
+      "id": "07ce7043-505a-47a8-a90a-88a64f90d6b0",
+      "comment": "",
+      "command": "click",
+      "target": "name=preg",
+      "targets": [
+        ["name=preg", "name"],
+        ["css=p:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='preg']", "xpath:attributes"],
+        ["xpath=//form[@id='myform']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4979564a-5b89-4cca-bfc0-bfc360f32b44",
+      "comment": "",
+      "command": "type",
+      "target": "name=preg",
+      "targets": [
+        ["name=preg", "name"],
+        ["css=p:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='preg']", "xpath:attributes"],
+        ["xpath=//form[@id='myform']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "5a56afad-f6a5-41d2-833f-1446487b77e0",
+      "comment": "",
+      "command": "click",
+      "target": "name=glu",
+      "targets": [
+        ["name=glu", "name"],
+        ["css=p:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='glu']", "xpath:attributes"],
+        ["xpath=//form[@id='myform']/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "733aa30d-32a1-4490-9620-934aeb5eb16c",
+      "comment": "",
+      "command": "type",
+      "target": "name=glu",
+      "targets": [
+        ["name=glu", "name"],
+        ["css=p:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='glu']", "xpath:attributes"],
+        ["xpath=//form[@id='myform']/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": "80"
+    }, {
+      "id": "ce76c224-5dd8-4776-8cf8-b4e43751312b",
+      "comment": "",
+      "command": "click",
+      "target": "name=bp",
+      "targets": [
+        ["name=bp", "name"],
+        ["css=p:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='bp']", "xpath:attributes"],
+        ["xpath=//form[@id='myform']/p[4]/input", "xpath:idRelative"],
+        ["xpath=//p[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cabae87-a9f5-4acc-bcdc-f7db8c27753f",
+      "comment": "",
+      "command": "type",
+      "target": "name=bp",
+      "targets": [
+        ["name=bp", "name"],
+        ["css=p:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='bp']", "xpath:attributes"],
+        ["xpath=//form[@id='myform']/p[4]/input", "xpath:idRelative"],
+        ["xpath=//p[4]/input", "xpath:position"]
+      ],
+      "value": "90"
+    }, {
+      "id": "f61aeb02-0e44-4687-88a3-31ba5b4dd8cb",
+      "comment": "",
+      "command": "click",
+      "target": "name=st",
+      "targets": [
+        ["name=st", "name"],
+        ["css=p:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='st']", "xpath:attributes"],
+        ["xpath=//form[@id='myform']/p[5]/input", "xpath:idRelative"],
+        ["xpath=//p[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fde7635-3123-49fb-816a-e9d05e87a022",
+      "comment": "",
+      "command": "type",
+      "target": "name=st",
+      "targets": [
+        ["name=st", "name"],
+        ["css=p:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='st']", "xpath:attributes"],
+        ["xpath=//form[@id='myform']/p[5]/input", "xpath:idRelative"],
+        ["xpath=//p[5]/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "0fa60644-c9fc-4589-a8bb-80c6d69cef71",
+      "comment": "",
+      "command": "type",
+      "target": "name=ins",
+      "targets": [
+        ["name=ins", "name"],
+        ["css=p:nth-child(6) > .form-control", "css:finder"],
+        ["xpath=//input[@name='ins']", "xpath:attributes"],
+        ["xpath=//form[@id='myform']/p[6]/input", "xpath:idRelative"],
+        ["xpath=//p[6]/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "dd79f577-8f9f-40a5-ad44-1aeb3deadba9",
+      "comment": "",
+      "command": "type",
+      "target": "name=bmi",
+      "targets": [
+        ["name=bmi", "name"],
+        ["css=p:nth-child(7) > .form-control", "css:finder"],
+        ["xpath=//input[@name='bmi']", "xpath:attributes"],
+        ["xpath=//form[@id='myform']/p[7]/input", "xpath:idRelative"],
+        ["xpath=//p[7]/input", "xpath:position"]
+      ],
+      "value": "18"
+    }, {
+      "id": "e7873720-ec6c-40cd-99ae-3feaf7ed91ed",
+      "comment": "",
+      "command": "click",
+      "target": "name=age",
+      "targets": [
+        ["name=age", "name"],
+        ["css=p:nth-child(8) > .form-control", "css:finder"],
+        ["xpath=//input[@name='age']", "xpath:attributes"],
+        ["xpath=//form[@id='myform']/p[8]/input", "xpath:idRelative"],
+        ["xpath=//p[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5e1dbbf-3300-4e43-bea7-460d780cbc61",
+      "comment": "",
+      "command": "type",
+      "target": "name=age",
+      "targets": [
+        ["name=age", "name"],
+        ["css=p:nth-child(8) > .form-control", "css:finder"],
+        ["xpath=//input[@name='age']", "xpath:attributes"],
+        ["xpath=//form[@id='myform']/p[8]/input", "xpath:idRelative"],
+        ["xpath=//p[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cd245c3-2095-400f-ad9d-c59e0a5264bd",
+      "comment": "",
+      "command": "//click",
+      "target": "css=p:nth-child(9) > .form-control",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1159eaf7-c616-476a-9c71-33d1baaccdc8",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "afd3ce7c-2d57-4aa7-948b-1d3946d27fff",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return document.getElementsByName('age')[0].checkValidity();",
+      "targets": [],
+      "value": "isvalid"
+    }, {
+      "id": "33e500ac-ef53-40f0-bac6-f22d135afa6e",
+      "comment": "",
+      "command": "if",
+      "target": "${isvalid}==false",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1eb0af8c-4fc7-4a1b-a60f-fa1079f720ab",
+      "comment": "",
+      "command": "executeScript",
+      "target": ";",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f401dd1-3ebe-45d4-9349-aed28da15ad7",
+      "comment": "",
+      "command": "else",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cccd8c56-8ca1-4682-af5c-a7a33387efc9",
+      "comment": "",
+      "command": "assert",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c8546c5-ca72-433c-b6fd-903f77acbf47",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8ec94ac6-38c4-49a9-a538-20a2e9d8fdf6",
+    "name": "patient loginin-valid",
+    "commands": [{
+      "id": "547ce9ab-833f-48ff-8d0a-e4529725959a",
+      "comment": "",
+      "command": "open",
+      "target": "http://doctorconnect.pythonanywhere.com/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95c503f7-8cd6-4da5-8331-ff1c794f30d5",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=p:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63f3c7bc-63fe-485b-84da-be215ab84096",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=p:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "anna@gmail.com"
+    }, {
+      "id": "9f291eca-532e-40e5-837d-ec1ec46a97a5",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=p:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bca6ef45-ffce-4686-bfdd-547c6968b21f",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=p:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "ann"
+    }, {
+      "id": "6a4f483d-cb2d-4841-b1c7-f31f9ffb0f27",
+      "comment": "",
+      "command": "click",
+      "target": "name=type",
+      "targets": [
+        ["name=type", "name"],
+        ["css=p:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='type']", "xpath:attributes"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b651461f-b761-428a-b5c2-cd9fee61213f",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(5) > input",
+      "targets": [
+        ["css=p:nth-child(5) > input", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//p[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49a7c29d-1661-4486-a78c-d05f4721981b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a0266ab-3e89-414c-b5a8-8fba1de967b8",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"navbarSupportedContent\"]/ul/li[7]/a",
+      "targets": [
+        ["linkText=anna@gmail.com", "linkText"],
+        ["css=.nav-item:nth-child(8) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'anna@gmail.com')]", "xpath:link"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'anna@gmail.com')]", "xpath:innerText"]
+      ],
+      "value": "anna@gmail.com"
+    }, {
+      "id": "c6efa224-2839-449b-81c2-4b8f2d86eaf1",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "90e64e8b-06d4-490f-a940-bdc41e123c8d",
+    "name": "patient loginin-invalid",
+    "commands": [{
+      "id": "279147de-69c5-4257-ae7e-21aa4c8b83a8",
+      "comment": "",
+      "command": "open",
+      "target": "http://doctorconnect.pythonanywhere.com/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f4bf5bf-607f-4e1c-b3e2-51957f4b47b1",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=p:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10246420-eab1-41c1-b7a4-7a36c630c489",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=p:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "anna@gmail.com"
+    }, {
+      "id": "37933e0d-e2ad-4941-94bd-4022b27d0ee0",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=p:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee841743-b704-4377-aecd-07a02625396d",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=p:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "anna"
+    }, {
+      "id": "7f16b014-8aac-438c-9a6e-7cc386970a02",
+      "comment": "",
+      "command": "click",
+      "target": "name=type",
+      "targets": [
+        ["name=type", "name"],
+        ["css=p:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='type']", "xpath:attributes"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bfdc0ef-1346-4ca3-8971-308e88206269",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(5) > input",
+      "targets": [
+        ["css=p:nth-child(5) > input", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//p[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de3da565-4511-44c8-b3fd-6c67e7ae6bb1",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/center[1]",
+      "targets": [
+        ["linkText=anna@gmail.com", "linkText"],
+        ["css=.nav-item:nth-child(8) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'anna@gmail.com')]", "xpath:link"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'anna@gmail.com')]", "xpath:innerText"]
+      ],
+      "value": "wrong details"
+    }]
+  }, {
+    "id": "5e3631bf-e41e-42b5-bc19-ed54db20ce57",
+    "name": "logout",
+    "commands": [{
+      "id": "0996d83d-d39b-4ddd-b9e1-8b8d8626d10f",
+      "comment": "",
+      "command": "run",
+      "target": "patient loginin-valid",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "73b4c77a-44ab-417a-acc0-c9ea85f1505f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.nav-item:nth-child(7) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/logout')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "714c63d4-98d1-404d-8b22-b04cb49641f5",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#loading > img",
+      "targets": [
+        ["css=#loading > img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://doctorconnect.pythonanywhere.com/s/logout.PNG')]", "xpath:img"],
+        ["xpath=//div[@id='loading']/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bb753508-f74a-47e0-8906-6a6b5b8f0a44",
+    "name": "chat",
+    "commands": [{
+      "id": "167509b6-7b7b-48dc-b055-d8ee27fbc119",
+      "comment": "",
+      "command": "run",
+      "target": "patient loginin-valid",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b177c0f0-a6e0-4073-92d7-3a1808bbcd97",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Chat",
+      "targets": [
+        ["linkText=Chat", "linkText"],
+        ["css=.nav-item:nth-child(5) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Chat')]", "xpath:link"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/chatpage')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Chat')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "11091eea-505d-40a8-962f-b5515306f0af",
+      "comment": "",
+      "command": "click",
+      "target": "id=31",
+      "targets": [
+        ["id=30", "id"],
+        ["css=#\\33 0", "css:finder"],
+        ["xpath=//button[@id='30']", "xpath:attributes"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'sss')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ba6781a-53e1-47ec-8019-53b9cb1da812",
+      "comment": "",
+      "command": "click",
+      "target": "id=messagebox",
+      "targets": [
+        ["id=messagebox", "id"],
+        ["css=#messagebox", "css:finder"],
+        ["xpath=//input[@id='messagebox']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e8015e3-b534-46a8-b58f-a5b5a9040588",
+      "comment": "",
+      "command": "type",
+      "target": "id=messagebox",
+      "targets": [
+        ["id=messagebox", "id"],
+        ["css=#messagebox", "css:finder"],
+        ["xpath=//input[@id='messagebox']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "msg"
+    }, {
+      "id": "48600c66-36b7-4307-9e89-0932fb40d0ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Send')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdd0a57f-f133-4d9d-8cfd-7106860080dd",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Message has been sent!",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9bf15737-6184-419f-a4fc-8fc24e9e9504",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "62053977-e80d-4185-90f3-3d92b2d2f4e1",
+    "name": "navigate to diabetes pred",
+    "commands": [{
+      "id": "7864cc3f-5362-4b4d-8871-67f9f35a8dc7",
+      "comment": "",
+      "command": "open",
+      "target": "http://doctorconnect.pythonanywhere.com/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b37dd027-36e2-4a9b-b3e8-dbd9acfe35dd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/home')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "39799130-dc0f-40d3-99ae-6154e644b2ad",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Diabetes Prediction",
+      "targets": [
+        ["linkText=Diabetes Prediction", "linkText"],
+        ["css=.btn:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Diabetes Prediction')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/prediction')]", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Diabetes Prediction')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2828d256-a483-4744-b2aa-8f90b536eae6",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"myform\"]/p[1]",
+      "targets": [],
+      "value": "DiabetesPedigreeFunction Check your value"
+    }]
+  }],
+  "suites": [{
+    "id": "45a41798-d350-4d23-814a-d464b6cae883",
+    "name": "DPF form",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 5,
+    "tests": ["6abcf069-dce8-4d4d-83be-39eae4e5ee4c", "f54ace0b-e293-4302-803e-116cdf831b54", "073c662f-c40a-449d-a2eb-42bd4e8db850", "adab057a-a2ac-4d0f-a438-e4768c0cbbbf", "4f86077d-0523-4905-b641-985453f1687c"]
+  }, {
+    "id": "fa0c93a2-2c86-49a8-ba42-5fa7d673c888",
+    "name": "Chat",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["bb753508-f74a-47e0-8906-6a6b5b8f0a44"]
+  }, {
+    "id": "bfe77714-84ec-46c9-8887-19c20acf25d7",
+    "name": "Prediction",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1fdff3ad-503c-481b-a700-52e9037e4003", "6631059f-c815-4593-a51f-d54a014f101d"]
+  }, {
+    "id": "082bab2e-eb4b-46a1-9b62-178536f279a5",
+    "name": "Login and logout",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["90e64e8b-06d4-490f-a940-bdc41e123c8d", "8ec94ac6-38c4-49a9-a538-20a2e9d8fdf6", "5e3631bf-e41e-42b5-bc19-ed54db20ce57"]
+  }, {
+    "id": "345a6ad6-e10c-4c12-a097-b29d627b2dcc",
+    "name": "Navigation",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["62053977-e80d-4185-90f3-3d92b2d2f4e1"]
+  }],
+  "urls": ["https://docpredict.herokuapp.com/dpf/?e=true", "https://docpredict.herokuapp.com/dpf/", "https://doctorconnect.pythonanywhere.com/login", "http://doctorconnect.pythonanywhere.com/prediction", "http://doctorconnect.pythonanywhere.com/login"],
+  "plugins": []
+}
