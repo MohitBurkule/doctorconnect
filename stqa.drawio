@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-03T12:04:46.854Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="u8iRwLC04lXN3CnowqjZ" version="13.10.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-12-03T12:06:36.355Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="jRolp5y8nqCZm6PFcHZN" version="13.10.6" type="github" pages="6">
   <diagram id="XmfhpZSHDbD-L9CLVwJt" name="template">
     <mxGraphModel dx="1090" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -289,8 +289,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Copy of Patient" id="9Atvdf-i6V24u1PNIBuS">
-    <mxGraphModel dx="1090" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram name="final use case" id="9Atvdf-i6V24u1PNIBuS">
+    <mxGraphModel dx="1090" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="dQwQXZpEH5WJhptbOo1y-0" />
         <mxCell id="dQwQXZpEH5WJhptbOo1y-1" parent="dQwQXZpEH5WJhptbOo1y-0" />
