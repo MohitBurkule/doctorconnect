@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-08T18:40:40.349Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="dlzXVylKFqH2i9WAMx_i" version="13.11.0" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2020-12-09T13:23:24.577Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="110wbf777m0O7kBf9Chs" version="14.0.0" type="github" pages="14">
   <diagram id="XmfhpZSHDbD-L9CLVwJt" name="template">
-    <mxGraphModel dx="1330" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1090" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -578,7 +578,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="caBqVCScp32BCHPKo7uk" name="arch">
-    <mxGraphModel dx="2294" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1917" dy="1815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="5VmnUtOT4pOWLBNbKurv-0" />
         <mxCell id="5VmnUtOT4pOWLBNbKurv-1" parent="5VmnUtOT4pOWLBNbKurv-0" />
@@ -589,6 +589,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oyH112JcSPVhFAZ9jsg5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="5VmnUtOT4pOWLBNbKurv-1" source="oyH112JcSPVhFAZ9jsg5-1" target="oyH112JcSPVhFAZ9jsg5-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XESy4RJg76SnumfcNwdj-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="5VmnUtOT4pOWLBNbKurv-1" source="oyH112JcSPVhFAZ9jsg5-1" target="XESy4RJg76SnumfcNwdj-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oyH112JcSPVhFAZ9jsg5-1" value="Patient" style="rounded=1;whiteSpace=wrap;html=1;" parent="5VmnUtOT4pOWLBNbKurv-1" vertex="1">
@@ -604,6 +607,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-rBRQGYJgBVjn0SmNLaM-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="5VmnUtOT4pOWLBNbKurv-1" source="oyH112JcSPVhFAZ9jsg5-3" target="-rBRQGYJgBVjn0SmNLaM-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XESy4RJg76SnumfcNwdj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="5VmnUtOT4pOWLBNbKurv-1" source="oyH112JcSPVhFAZ9jsg5-3" target="XESy4RJg76SnumfcNwdj-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oyH112JcSPVhFAZ9jsg5-3" value="Doctor" style="rounded=1;whiteSpace=wrap;html=1;" parent="5VmnUtOT4pOWLBNbKurv-1" vertex="1">
@@ -843,6 +849,9 @@
         </mxCell>
         <mxCell id="yud7KQRR-wM7AeFlcXGz-0" value="Login" style="rhombus;whiteSpace=wrap;html=1;" parent="5VmnUtOT4pOWLBNbKurv-1" vertex="1">
           <mxGeometry x="394" y="650" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XESy4RJg76SnumfcNwdj-0" value="Get Prediction" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5VmnUtOT4pOWLBNbKurv-1">
+          <mxGeometry x="360" y="-60" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
