@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-09T13:57:34.589Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="IlC0ZYrgmuIEmIUYb1G7" version="14.0.0" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2020-12-11T04:47:20.016Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="-g9eqGfw3Wk9oKnVsH3p" version="14.0.0" type="github" pages="14">
   <diagram id="XmfhpZSHDbD-L9CLVwJt" name="template">
     <mxGraphModel dx="1090" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1857,7 +1857,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3Cu3LIDM1vMQnSVocyKb" name="Final state diagram">
-    <mxGraphModel dx="1090" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1090" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="r5X61IO7x2xR5KiCe00F-0" />
         <mxCell id="r5X61IO7x2xR5KiCe00F-1" parent="r5X61IO7x2xR5KiCe00F-0" />
@@ -2215,7 +2215,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="L1Id_iEyqYGxpBRwaRul" name="activity diagram">
-    <mxGraphModel dx="1090" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1090" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="vKsBR3WFClrhDBMunI4B-0" />
         <mxCell id="vKsBR3WFClrhDBMunI4B-1" parent="vKsBR3WFClrhDBMunI4B-0" />
@@ -2385,10 +2385,10 @@
         <mxCell id="5Bgef2dTeySoecBGnGVm-47" value="" style="shape=rhombus;html=1;verticalLabelPosition=bottom;verticalAlignment=top;" parent="vKsBR3WFClrhDBMunI4B-1" vertex="1">
           <mxGeometry x="70" y="320" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5Bgef2dTeySoecBGnGVm-50" value="[user is a doctor ]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="vKsBR3WFClrhDBMunI4B-1" vertex="1">
+        <mxCell id="5Bgef2dTeySoecBGnGVm-50" value="[user is a patient ]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="vKsBR3WFClrhDBMunI4B-1" vertex="1">
           <mxGeometry x="45" y="370" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5Bgef2dTeySoecBGnGVm-52" value="[user is a patient ]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="vKsBR3WFClrhDBMunI4B-1" vertex="1">
+        <mxCell id="5Bgef2dTeySoecBGnGVm-52" value="[user is a doctor ]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="vKsBR3WFClrhDBMunI4B-1" vertex="1">
           <mxGeometry x="120" y="340" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
