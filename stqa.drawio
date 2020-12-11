@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-11T04:47:20.016Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="-g9eqGfw3Wk9oKnVsH3p" version="14.0.0" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2020-12-11T07:15:08.965Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="tILpnvh9hURKm-KZ020Q" version="14.0.1" type="github" pages="14">
   <diagram id="XmfhpZSHDbD-L9CLVwJt" name="template">
     <mxGraphModel dx="1090" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1383,7 +1383,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DGNaykqj8lnDf_lXq2CR" name="State diagram for login">
-    <mxGraphModel dx="1090" dy="1766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1090" dy="1815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="OTjp2Jeh7nD0fWjxPKNk-0" />
         <mxCell id="OTjp2Jeh7nD0fWjxPKNk-1" parent="OTjp2Jeh7nD0fWjxPKNk-0" />
@@ -1490,7 +1490,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8og-w61moZLxn-yUnKLf" name="Deployment diagram">
-    <mxGraphModel dx="2157" dy="1815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1917" dy="1815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="4e_L8UsEWll-yQ1ug4dF-0" />
         <mxCell id="4e_L8UsEWll-yQ1ug4dF-1" parent="4e_L8UsEWll-yQ1ug4dF-0" />
@@ -1971,7 +1971,7 @@
         <mxCell id="-aHaw9xrViBHIzoRQjBl-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="r5X61IO7x2xR5KiCe00F-1" source="-aHaw9xrViBHIzoRQjBl-32" target="-aHaw9xrViBHIzoRQjBl-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-aHaw9xrViBHIzoRQjBl-32" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Check User Exhists&amp;nbsp;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="r5X61IO7x2xR5KiCe00F-1" vertex="1">
+        <mxCell id="-aHaw9xrViBHIzoRQjBl-32" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Check User Exists&amp;nbsp;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="r5X61IO7x2xR5KiCe00F-1" vertex="1">
           <mxGeometry x="430" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-aHaw9xrViBHIzoRQjBl-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="r5X61IO7x2xR5KiCe00F-1" source="-aHaw9xrViBHIzoRQjBl-33" target="-aHaw9xrViBHIzoRQjBl-29" edge="1">
@@ -1985,7 +1985,7 @@
         <mxCell id="-aHaw9xrViBHIzoRQjBl-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="r5X61IO7x2xR5KiCe00F-1" source="-aHaw9xrViBHIzoRQjBl-33" target="-aHaw9xrViBHIzoRQjBl-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-aHaw9xrViBHIzoRQjBl-33" value="Check User Exhists&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="r5X61IO7x2xR5KiCe00F-1" vertex="1">
+        <mxCell id="-aHaw9xrViBHIzoRQjBl-33" value="Check User Exists&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="r5X61IO7x2xR5KiCe00F-1" vertex="1">
           <mxGeometry x="430" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-aHaw9xrViBHIzoRQjBl-35" value="&lt;font style=&quot;font-size: 14px&quot;&gt;docreg()&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="r5X61IO7x2xR5KiCe00F-1" vertex="1">
